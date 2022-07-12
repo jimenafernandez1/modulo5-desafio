@@ -11,6 +11,6 @@
   "scripts": {
     "dev": "parcel serve ./src/index.html",
     "build": "parcel build ./src/index.html --dist-dir builded --public-url /modulo5-desafio",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d builded"
   }
 }
